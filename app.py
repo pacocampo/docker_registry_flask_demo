@@ -10,6 +10,7 @@ def index():
 
 @app.route("/info")
 def info():
+    print("hello")
     return "Info page :) with cloud"
 
 # Guard
